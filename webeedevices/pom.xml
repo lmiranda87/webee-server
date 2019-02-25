@@ -106,6 +106,130 @@
             <artifactId>jetty-server</artifactId>
             <version>9.4.0.v20161208</version>
         </dependency>
+
+        <dependency>                        <!-- Apache Taglibs -->
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+
+        <dependency>                        <!-- Google Cloud Client Library for Java -->
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud</artifactId>
+            <version>0.47.0-alpha</version>
+        </dependency>
+
+        <dependency>                        <!-- Google API client - for stuff that's not in gcloud-->
+            <groupId>com.google.api-client</groupId>
+            <artifactId>google-api-client</artifactId>
+            <version>1.27.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.guava</groupId>
+                    <artifactId>guava-jdk5</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>                        <!-- Google+ API Client Library for Java -->
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-plus</artifactId>
+            <version>v1-rev20180805-1.27.0</version>
+        </dependency>
+
+        <dependency>                        <!-- https://github.com/FasterXML/jackson-databind -->
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.7</version>
+        </dependency>
+
+        <dependency>                        <!-- Google Core Libraries for Java -->
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>  <!-- https://github.com/google/guava/wiki -->
+            <version>23.0</version>
+        </dependency>
+
+        <dependency>                        <!-- http://www.joda.org/joda-time/ -->
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+
+        <dependency>                        <!-- http://dev.mysql.com/doc/connector-j/en/ -->
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>6.0.5</version>
+        </dependency>
+
+        <dependency>                        <!-- Apache Database Connection Pool API -->
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+            <version>2.5.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.auth/google-auth-library-oauth2-http -->
+        <dependency>
+            <groupId>com.google.auth</groupId>
+            <artifactId>google-auth-library-oauth2-http</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.api.client/google-api-client -->
+        <dependency>
+            <groupId>com.google.api.client</groupId>
+            <artifactId>google-api-client</artifactId>
+            <version>1.4.0-alpha</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.auth/google-auth-library-oauth2-http -->
+        <dependency>
+            <groupId>com.google.auth</groupId>
+            <artifactId>google-auth-library-oauth2-http</artifactId>
+            <version>0.13.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.opencensus/opencensus-exporter-trace-stackdriver -->
+        <dependency>
+            <groupId>io.opencensus</groupId>
+            <artifactId>opencensus-exporter-trace-stackdriver</artifactId>
+            <version>0.19.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-datastore</artifactId>
+            <version>1.63.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.cloud.sql</groupId>
+            <artifactId>mysql-socket-factory-connector-j-6</artifactId>
+            <version>1.0.11</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180813</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.cloud.trace/java-timestamp -->
+        <dependency>
+            <groupId>com.google.cloud.trace</groupId>
+            <artifactId>java-timestamp</artifactId>
+            <version>0.2.2</version>
+        </dependency>
+
+
     </dependencies>
 
     <properties>
