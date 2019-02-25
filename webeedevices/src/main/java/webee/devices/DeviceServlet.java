@@ -41,7 +41,7 @@ public class DeviceServlet {
             json.put("timestamp", dev.getTimestamp());
             output = json.toString();
         } else {
-            return Response.status(200).entity("No record").build();
+            return Response.status(404).entity("No record").build();
         }
 
         return Response.status(200).entity(output).build();
@@ -124,7 +124,7 @@ public class DeviceServlet {
             json.put("timestamp", dev.getTimestamp());
             output = json.toString();
         } else {
-            return Response.status(200).entity("No record").build();
+            return Response.status(404).entity("No record").build();
         }
 
         return Response.status(200).entity(output).build();
